@@ -1,0 +1,23 @@
+platform :android do 
+    lane :build do     
+       gradle(task: 'clean', project_dir: 'android/')     
+       gradle(
+          task: 'assemble', 
+          build_type: 'release', 
+          project_dir: 'android/',
+          flavor: ENV["ANDROID_FLAVOUR"]
+       )   
+    end
+    
+    desc 'Build and upload to App Center.'
+    lane :dev do
+        build
+        appcenter_upload(
+            api_token: "2d9677bb40f1af08b0420c3cb4f9d195206b929f",
+            owner_name: "ricky102",
+            app_name: "itunes-android",
+            destinations: "public"
+        )
+    end
+    
+  end
