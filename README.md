@@ -63,6 +63,6 @@ The linting rules are from JS Standard and React-Standard.  [Regular JS errors c
 2. Run Build and deploy to appcenter
   * run `fastlane android dev`
 3. Download apk from appcenter
-  * `https://install.appcenter.ms/orgs/ricky102/apps/itunes-android`
+  * `https://install.appcenter.ms/orgs/ricky102/apps/itunes-android/distribution_groups/public`
 
 
