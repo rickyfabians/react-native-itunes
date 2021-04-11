@@ -51,6 +51,7 @@ The linting rules are from JS Standard and React-Standard.  [Regular JS errors c
 4. play the song
 5. pause the song
 6. playing the song while searching
+7. DemoApp `https://drive.google.com/file/d/1V65cTsex2RHj8RomE87JQ6EgRlKK3wU0/view?usp=sharing`
 
 ### Requirement to build the app:
 1. run `npm install`
